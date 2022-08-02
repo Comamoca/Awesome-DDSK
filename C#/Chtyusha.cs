@@ -1,3 +1,8 @@
+// --------------------
+// * LICENSE : MIT
+// * Author : Chatyusha
+// --------------------
+
 using System.Collections;
 using System.Collections.Generic;
 
