@@ -1,3 +1,8 @@
+// --------------------
+// * LICENSE : MIT
+// * Author : Chatyusha
+// --------------------
+
 #include "stdio.h"
 #include "stdlib.h"
 #include "wchar.h"
