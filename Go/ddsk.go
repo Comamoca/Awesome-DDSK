@@ -18,11 +18,11 @@ func main() {
   )
   for flag == false {
     rand.Seed(time.Now().UnixNano())
-    t := rand.Intn(2)
+    t := rand.Intn(2) % 2
     fmt.Println(ddsk[t])
     text += ddsk[t]
 
-    if len(text) >= 24 {
+    if len(text) > 24 {
       if text[2*n:] == ddskTemp {
         fmt.Println("ラブ注入♡")
         flag = true
