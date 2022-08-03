@@ -12,9 +12,9 @@ func main() {
   )
   var (
     ddsk[2]  string = [2]string {"ドド", "スコ"}
-    text  string = ""
-    flag  bool   = false
-    n     int    = 0
+    text     string = ""
+    flag     bool   = false
+    n        int    = 0
   )
   for flag == false {
     rand.Seed(time.Now().UnixNano())
