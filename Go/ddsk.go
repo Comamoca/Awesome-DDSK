@@ -4,7 +4,8 @@ import (
   "fmt"
   "math/rand"
   "time"
-  "unicode/utf8"
+  //"unicode/utf8"
+  // "reflect"
 )
 
 func main() {
@@ -17,18 +18,18 @@ func main() {
     flag     bool   = false
     n        int    = 0
   )
+
   for flag == false {
     rand.Seed(time.Now().UnixNano())
     t := rand.Intn(2)
     fmt.Println(ddsk[t])
     text += ddsk[t]
-
-    if utf8.RuneCountInString(text) >= 24 {
+    if len(text) >= 3*24 {
       if text[2*n:] == ddskTemp {
         fmt.Println("ラブ注入♡")
         flag = true
       }
-      n += 1
+      n += 3
     }
   }
 }

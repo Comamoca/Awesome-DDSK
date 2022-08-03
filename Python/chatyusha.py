@@ -5,8 +5,8 @@
 
 import random
 
-DDSK = ["ドド","スコ"]
-ddsk_tmp = "ドドスコスコスコ" * 3
+DDSK = ["01","10"]
+ddsk_tmp = "01011010" * 3
 
 judge = ""
 
