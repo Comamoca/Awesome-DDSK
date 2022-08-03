@@ -16,7 +16,6 @@ func main() {
     flag  bool   = false
     n     int    = 0
   )
-
   for flag == false {
     rand.Seed(time.Now().UnixNano())
     t := rand.Intn(2)
