@@ -21,6 +21,7 @@
 - [Python](./Python/chatyusha.py) by @Chatyusha
 - [Nim](./nim/ddsk.nim)
 - [S](./S/Chatyusha.s) by @Chatyusha
+- [TypeScript](./TypeScript/ddsk.ts) by @mochi-sann
 
 ## 言語の追加について
 
