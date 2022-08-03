@@ -1,5 +1,4 @@
-<div align="center">
-<h1> 👏 Awesome DDSK 💕 </h1>
+<div align="center"><h1> 👏 Awesome DDSK 💕 </h1>
 
 様々なドドスコプログラムを個人的に集めたリポジトリです。
 </div>
@@ -16,5 +15,9 @@
 
 ## 実装された言語の一覧
 
+- [C#](./C#)
+- [C++](./C++/chatyusha.cpp)
+- [C](./C/Chatyusha.c)
+- [Python](./Python/chatyusha.py)
 - [Nim](./nim/ddsk.nim)
-- [Python](./python/ddsk.py)
+- [S](./S/Chatyusha.s)
