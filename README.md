@@ -21,3 +21,26 @@
 - [Python](./Python/chatyusha.py) by @Chatyusha
 - [Nim](./nim/ddsk.nim)
 - [S](./S/Chatyusha.s) by @Chatyusha
+
+## 言語の追加について
+
+言語を追加する際は以下のような構造で追加して下さい。
+
+```
+└── 言語名
+   ├── Dockerfile
+   ├── README.md 
+   └── プログラム
+```
+
+各ファイルについて(太字は必須です)
+
+- **プログラム本体**
+プログラム本体。もしプロジェクトを作成する言語の場合はプロジェクトの中身をここに展開、もしくは言語名でプロジェクトを作成して下さい。
+
+- **README.md**
+言語名、ビルドの手順、Playgroundなどのリンクを記述して下さい。
+レイアウトなどについては[NimのREADME](./Nim/README.md)を参考にして下さい。
+
+- Dockerfile
+必須ではありませんが、あるととても助かります。
