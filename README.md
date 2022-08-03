@@ -15,9 +15,9 @@
 
 ## 実装された言語の一覧
 
-- [C#](./C#)
-- [C++](./C++/chatyusha.cpp)
-- [C](./C/Chatyusha.c)
-- [Python](./Python/chatyusha.py)
+- [C#](./C#) by @Chatyusha 
+- [C++](./C++/chatyusha.cpp) by @Chatyusha 
+- [C](./C/Chatyusha.c) by @Chatyusha
+- [Python](./Python/chatyusha.py) by @Chatyusha
 - [Nim](./nim/ddsk.nim)
-- [S](./S/Chatyusha.s)
+- [S](./S/Chatyusha.s) by @Chatyusha
