@@ -22,6 +22,7 @@
 - [Nim](./nim/ddsk.nim)
 - [S](./S/Chatyusha.s) by @Chatyusha
 - [TypeScript](./TypeScript/ddsk.ts) by @mochi-sann
+- [Swift](./Swift/ddsk.swift) by @Fus1onDev
 
 ## 言語の追加について
 
