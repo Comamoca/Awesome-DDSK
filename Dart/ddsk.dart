@@ -2,12 +2,12 @@ import 'dart:math';
 
 void main()
 {
-    var DDSK = ["ドド", "スコ"];
-    var ddsk_temp = "ドドスコスコスコドドスコスコスコドドスコスコスコ";
+    const DDSK = ["ドド", "スコ"];
+    const ddsk_temp = "ドドスコスコスコドドスコスコスコドドスコスコスコ";
     var text = "";
 
     while (!text.contains(ddsk_temp)) {
-        var random = Random().nextInt(2);
+        final random = Random().nextInt(2);
         print(DDSK[random]);
         text += DDSK[random];
     }
