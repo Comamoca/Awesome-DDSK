@@ -7,9 +7,7 @@ import (
 )
 
 func main() {
-  const (
-    ddskTemp string = "ドドスコスコスコドドスコスコスコドドスコスコスコ"
-  )
+  const ddskTemp string = "ドドスコスコスコドドスコスコスコドドスコスコスコ"
   var (
     ddsk[2]  string = [2]string {"ドド", "スコ"}
     text     string = ""
