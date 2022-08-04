@@ -1,7 +1,6 @@
 	.intel_syntax noprefix
 .LC0:
 	.string	""
-	.align 4
 .LC1:
 	.string	"\3510"
 	.string	""
@@ -17,7 +16,6 @@
 	.string	""
 	.string	""
 	.string	""
-	.align 4
 .LC2:
 	.string	"\n"
 	.string	""
@@ -26,7 +24,6 @@
 	.string	""
 	.string	""
 	.string	""
-	.align 4
 .LC3:
 	.string	"%"
 	.string	""
@@ -43,8 +40,6 @@
 	.string	""
 	.globl	main
 main:
-.LFB6:
-	endbr64
 	push	rbp
 	mov	rbp, rsp
 	sub	rsp, 288
@@ -56,7 +51,7 @@ main:
 	lea	rax, .LC0[rip]
 	mov	rsi, rax
 	mov	edi, 6
-	call	setlocale@PLT
+	call	setlocale
 	mov	DWORD PTR -264[rbp], 0
 	jmp	.L2
 .L3:
@@ -92,7 +87,7 @@ main:
 	mov	DWORD PTR -260[rbp], 0
 	jmp	.L4
 .L14:
-	call	rand@PLT
+	call	rand
 	cdq
 	shr	edx, 31
 	add	eax, edx
@@ -125,11 +120,11 @@ main:
 	lea	rax, .LC1[rip]
 	mov	rdi, rax
 	mov	eax, 0
-	call	wprintf@PLT
+	call	wprintf
 	lea	rax, .LC2[rip]
 	mov	rdi, rax
 	mov	eax, 0
-	call	wprintf@PLT
+	call	wprintf
 	jmp	.L10
 .L9:
 	mov	DWORD PTR -256[rbp], 0
@@ -186,11 +181,11 @@ main:
 	lea	rax, .LC3[rip]
 	mov	rdi, rax
 	mov	eax, 0
-	call	wprintf@PLT
+	call	wprintf
 	lea	rax, .LC2[rip]
 	mov	rdi, rax
 	mov	eax, 0
-	call	wprintf@PLT
+	call	wprintf
 .L4:
 	cmp	DWORD PTR -248[rbp], 0
 	je	.L14
@@ -199,7 +194,7 @@ main:
 	mov	rdx, QWORD PTR -8[rbp]
 	sub	rdx, QWORD PTR fs:40
 	je	.L16
-	call	__stack_chk_fail@PLT
+	call	__stack_chk_fail
 .L16:
 	leave
 	ret
