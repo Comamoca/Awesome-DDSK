@@ -22,6 +22,7 @@
 - [Nim](./nim/ddsk.nim)
 - [S](./S/Chatyusha.s) by @Chatyusha
 - [TypeScript](./TypeScript/ddsk.ts) by @mochi-sann
+- [Dart](Dart/ddsk.dart) by @Fus1onDev
 - [Bash](./Bash/ddsk.sh) by @Fus1onDev
 - [D](./D/ddsk.d) by [@PenguinCabinet](https://github.com/PenguinCabinet)
 
