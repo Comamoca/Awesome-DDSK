@@ -24,7 +24,7 @@
 - [D](./D) by [@PenguinCabinet](https://github.com/PenguinCabinet)
 - [Dart](./Dart) by @[Fus1onDev](https://github.com/Fus1onDev)
 - [Go](./Go) by @[gamma-410](https://github.com/gamma-410)
-- [Nadesiko3](./Nadesiko3)
+- [Nadesiko3](./Nadesiko3) by @[arrow2nd](https://github.com/arrow2nd)
 - [Nim](./Nim) by @[Comamoca](https://github.com/Comamoca)
 - [Python](./Python) by @[Chatyusha](https://github.com/Chatyusha)
 - [Ruby](./Ruby) by @[arrow2nd](https://github.com/arrow2nd)
