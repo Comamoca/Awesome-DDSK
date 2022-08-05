@@ -17,20 +17,20 @@
 
 ## 実装された言語の一覧
 
-[Bash](./Bash) by @[Fus1onDev](https://github.com/Fus1onDev)
-[C#](./C#) by @[Chatyusha](https://github.com/Chatyusha)
-[C++](./C++) by @[Chatyusha](https://github.com/Chatyusha)
-[C](./C) by @[Chatyusha](https://github.com/Chatyusha)
-[D](./D) by [@PenguinCabinet](https://github.com/PenguinCabinet)
-[Dart](./Dart) by @[Fus1onDev](https://github.com/Fus1onDev)
-[Go](./Go) by @[gamma-410](https://github.com/gamma-410)
-[Nadesiko3](./Nadesiko3)
-[Nim](./Nim) by @[Comamoca](https://github.com/Comamoca)
-[Python](./Python) by @[Chatyusha](https://github.com/Chatyusha)
-[Ruby](./Ruby) by @[arrow2nd](https://github.com/arrow2nd)
-[S](./S) by @[Chatyusha](https://github.com/Chatyusha)
-[Swift](./Swift) by @[Fus1onDev](https://github.com/Fus1onDev) 
-[TypeScript](./TypeScript) by @[mochi-sann](https://github.com/mochi-sann)
+- [Bash](./Bash) by @[Fus1onDev](https://github.com/Fus1onDev)
+- [C#](./C#) by @[Chatyusha](https://github.com/Chatyusha)
+- [C++](./C++) by @[Chatyusha](https://github.com/Chatyusha)
+- [C](./C) by @[Chatyusha](https://github.com/Chatyusha)
+- [D](./D) by [@PenguinCabinet](https://github.com/PenguinCabinet)
+- [Dart](./Dart) by @[Fus1onDev](https://github.com/Fus1onDev)
+- [Go](./Go) by @[gamma-410](https://github.com/gamma-410)
+- [Nadesiko3](./Nadesiko3)
+- [Nim](./Nim) by @[Comamoca](https://github.com/Comamoca)
+- [Python](./Python) by @[Chatyusha](https://github.com/Chatyusha)
+- [Ruby](./Ruby) by @[arrow2nd](https://github.com/arrow2nd)
+- [S](./S) by @[Chatyusha](https://github.com/Chatyusha)
+- [Swift](./Swift) by @[Fus1onDev](https://github.com/Fus1onDev) 
+- [TypeScript](./TypeScript) by @[mochi-sann](https://github.com/mochi-sann)
 
 ## 言語の追加について
 
