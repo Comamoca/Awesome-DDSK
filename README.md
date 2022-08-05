@@ -22,7 +22,9 @@
 - [Nim](./nim/ddsk.nim)
 - [S](./S/Chatyusha.s) by @Chatyusha
 - [TypeScript](./TypeScript/ddsk.ts) by @mochi-sann
+- [Bash](./Bash/ddsk.sh) by @Fus1onDev
 - [D](./D/ddsk.d) by [@PenguinCabinet](https://github.com/PenguinCabinet)
+
 
 ## 言語の追加について
 
