@@ -31,6 +31,7 @@
 - [S](./S) by @[Chatyusha](https://github.com/Chatyusha)
 - [Swift](./Swift) by @[Fus1onDev](https://github.com/Fus1onDev) 
 - [TypeScript](./TypeScript) by @[mochi-sann](https://github.com/mochi-sann)
+- [Perl](./Perl) by @[YuseiUeno](https://github.com/YuseiUeno)
 
 ## 言語の追加について
 
