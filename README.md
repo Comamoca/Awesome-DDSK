@@ -1,6 +1,8 @@
 <div align="center"><h1> 👏 Awesome DDSK 💕 </h1>
 
 様々なドドスコプログラムを個人的に集めたリポジトリです。
+
+🎉たくさんのPRありがとうございます！🎉
 </div>
 
 ## ドドスコプログラムとは
@@ -15,14 +17,25 @@
 
 ## 実装された言語の一覧
 
-- [C#](./C#) by @Chatyusha 
-- [C++](./C++/chatyusha.cpp) by @Chatyusha 
-- [C](./C/Chatyusha.c) by @Chatyusha
-- [Python](./Python/chatyusha.py) by @Chatyusha
-- [Nim](./nim/ddsk.nim)
-- [S](./S/Chatyusha.s) by @Chatyusha
-- [TypeScript](./TypeScript/ddsk.ts) by @mochi-sann
-- [Swift](./Swift/ddsk.swift) by @Fus1onDev
+- [Bash](./Bash) by @[Fus1onDev](https://github.com/Fus1onDev)
+- [C#](./C#) by @[Chatyusha](https://github.com/Chatyusha)
+- [C++](./C++) by @[Chatyusha](https://github.com/Chatyusha)
+- [C](./C) by @[Chatyusha](https://github.com/Chatyusha)
+- [Clojure](./Clojure) by @[jiro4989](https://github.com/jiro4989)
+- [D](./D) by [@PenguinCabinet](https://github.com/PenguinCabinet)
+- [Dart](./Dart) by @[Fus1onDev](https://github.com/Fus1onDev)
+- [Go](./Go) by @[gamma-410](https://github.com/gamma-410)
+- [Java](./Java) by @[jiro4989](https://github.com/jiro4989)
+- [Nadesiko3](./Nadesiko3) by @[arrow2nd](https://github.com/arrow2nd)
+- [Nim](./Nim) by @[Comamoca](https://github.com/Comamoca)
+- [Python](./Python) by @[Chatyusha](https://github.com/Chatyusha)
+- [Ruby](./Ruby) by @[Omochice](https://github.com/Omochice)
+- [S](./S) by @[Chatyusha](https://github.com/Chatyusha)
+- [Sed](./Sed) by @[jiro4989](https://github.com/jiro4989)
+- [Swift](./Swift) by @[Fus1onDev](https://github.com/Fus1onDev) 
+- [TypeScript](./TypeScript) by @[mochi-sann](https://github.com/mochi-sann)
+- [Zig](./Zig) by @[YuseiUeno](https://github.com/YuseiUeno)
+- [Perl](./Perl) by @[YuseiUeno](https://github.com/YuseiUeno)
 
 ## 言語の追加について
 
