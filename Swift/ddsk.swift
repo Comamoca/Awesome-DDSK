@@ -3,7 +3,7 @@
 // * Author : Fus1onDev
 // --------------------
 
-import Cocoa
+import Foundation
 
 let DDSK = ["ドド", "スコ"]
 let ddsk_temp = "ドドスコスコスコドドスコスコスコドドスコスコスコ"
