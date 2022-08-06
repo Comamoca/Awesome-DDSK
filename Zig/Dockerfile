@@ -9,8 +9,9 @@ ENV PATH $PATH:/zig
 
 RUN mkdir /test
 WORKDIR /test
-COPY . .
+COPY ./build.zig .
+COPY ./src/main.zig ./src/
 
-RUN zig build
+RUN zig build -Drelease-safe=true
 
-ENTRYPOINT [ "zig", "build", "run" ]
+ENTRYPOINT [ "zig", "build", "run", "-Drelease-safe=true" ]
