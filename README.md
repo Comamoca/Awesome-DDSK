@@ -34,6 +34,7 @@
 - [Sed](./Sed) by @[jiro4989](https://github.com/jiro4989)
 - [Swift](./Swift) by @[Fus1onDev](https://github.com/Fus1onDev) 
 - [TypeScript](./TypeScript) by @[mochi-sann](https://github.com/mochi-sann)
+- [Zig](./Zig) by @[YuseiUeno](https://github.com/YuseiUeno)
 - [Perl](./Perl) by @[YuseiUeno](https://github.com/YuseiUeno)
 
 ## 言語の追加について
