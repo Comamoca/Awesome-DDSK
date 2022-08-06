@@ -14,7 +14,12 @@
 int main(int argc, char const *argv[])
 {
     setlocale(LC_ALL, "");
-    wchar_t DDSKString[24];
+    wchar_t DDSKString[25];
+
+    int i;
+    for(i=0;i<24;i++){
+        DDSKString[i] = L' ';
+    }
     wchar_t DDSK[2][2] = {L"ドド",L"スコ"};
     int flag = FALSE;
 
@@ -36,7 +41,7 @@ int main(int argc, char const *argv[])
             if(p==(1<<24)){
                 flag=TRUE;
                 wprintf(L"ラブ注入♡");
-                printf("\n");
+                wprintf(L"\n");
                 break;
             }
             for(i=0;i<24;i+=2){
@@ -51,8 +56,8 @@ int main(int argc, char const *argv[])
             DDSKString[len+1]=DDSK[t][1];
             len+=2; 
         }
-        wprintf(L"%ls\n",DDSKString);
-        printf("\n");
+        wprintf(L"%ls",DDSKString);
+        wprintf(L"\n");
     }
     return 0;
 }
