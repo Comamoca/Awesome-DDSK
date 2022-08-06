@@ -30,6 +30,7 @@
 - [Python](./Python) by @[Chatyusha](https://github.com/Chatyusha)
 - [Ruby](./Ruby) by @[Omochice](https://github.com/Omochice)
 - [S](./S) by @[Chatyusha](https://github.com/Chatyusha)
+- [Sed](./Sed) by @[jiro4989](https://github.com/jiro4989)
 - [Swift](./Swift) by @[Fus1onDev](https://github.com/Fus1onDev) 
 - [TypeScript](./TypeScript) by @[mochi-sann](https://github.com/mochi-sann)
 - [Perl](./Perl) by @[YuseiUeno](https://github.com/YuseiUeno)
