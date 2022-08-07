@@ -2,7 +2,7 @@
 
 ## 実行方法
 
-`node ddsk.d`   　
+`node ddsk.d`    
 もしくはindex.htmlをブラウザで開いてください。開発ツールのコンソールにドドスコが出力されます。   
 
 ## Docker
