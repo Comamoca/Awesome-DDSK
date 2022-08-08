@@ -22,7 +22,7 @@
 - [C++](./C++) by @[Chatyusha](https://github.com/Chatyusha)
 - [C](./C) by @[Chatyusha](https://github.com/Chatyusha)
 - [Clojure](./Clojure) by @[jiro4989](https://github.com/jiro4989)
-- [D](./D) by [@PenguinCabinet](https://github.com/PenguinCabinet)
+- [D](./D) by @[PenguinCabinet](https://github.com/PenguinCabinet)
 - [Dart](./Dart) by @[Fus1onDev](https://github.com/Fus1onDev)
 - [Go](./Go) by @[gamma-410](https://github.com/gamma-410)
 - [Java](./Java) by @[jiro4989](https://github.com/jiro4989)
@@ -39,6 +39,7 @@
 - [rust](./rust) by @[mochi-sann](https://github.com/mochi-sann)
 - [php](./php) by @[code-raisan](https://github.com/code-raisan)
 - [Julia](./Julia) by @[antimon2](https://github.com/antimon2)
+- [JavaScript](./JavaScript) by @[PenguinCabinet](https://github.com/PenguinCabinet)
 
 ## 言語の追加について
 
