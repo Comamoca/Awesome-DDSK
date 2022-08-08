@@ -36,6 +36,9 @@
 - [TypeScript](./TypeScript) by @[mochi-sann](https://github.com/mochi-sann)
 - [Zig](./Zig) by @[YuseiUeno](https://github.com/YuseiUeno)
 - [Perl](./Perl) by @[YuseiUeno](https://github.com/YuseiUeno)
+- [rust](./rust) by @[mochi-sann](https://github.com/mochi-sann)
+- [php](./php) by @[code-raisan](https://github.com/code-raisan)
+- [Julia](./Julia) by @[antimon2](https://github.com/antimon2)
 - [JavaScript](./JavaScript) by @[PenguinCabinet](https://github.com/PenguinCabinet)
 
 ## 言語の追加について
