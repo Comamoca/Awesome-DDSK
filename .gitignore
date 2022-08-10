@@ -1,0 +1,8 @@
+.vscode/
+./**/.DS_Store
+./C++/a.out
+*.log
+*.aux
+*.dvi
+
+.DS_Store
