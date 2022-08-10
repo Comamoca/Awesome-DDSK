@@ -1,0 +1,62 @@
+\documentclass[a4paper]{jsarticle}
+% \usepackage{lcg}
+% \usepackage{pgf}
+
+% \makeatletter
+
+% \newcount\Sum
+% \newcount\K
+% \newcount\Max
+% \def\Summation{%
+%   \Max=100
+%   \Sum=1
+%   \K=1
+%   \@whilenum{\K<100}\do{%
+%     \advance\K 1
+%     \advance\Sum \K
+%   }%
+%   \the\Sum%
+% }
+
+\makeatletter
+
+% \def\DDSK{
+%     % \reinitrand[counter=random,first=0,last=1,seed=10]
+%     \newcounter{flag} % bool flag
+%     \newcounter{ddsktmp} % ドドスコ*1 (ドドスコ*3はメモリ不足で無理だった)
+%     \newcounter{ddskBinary} % {ドド,スコ}からなる配列を2進数で表したもの
+%     \setcounter{flag}{0} % bool flag = false
+%     \setcounter{ddsktmp}{8} % 0b1000 (ドド=1,スコ=0)
+%     \setcounter{ddskBinary}{0}
+%     \@whilenum{\value{flag}=0}\do{
+%         % \rand
+%         \addtocounter{ddskBinary}{\value{ddskBinary}}
+%         \ifnum\pgfmathparse{random(0,1)}=1
+%             \addtocounter{ddskBinary}{1} 
+%             ドド
+%         \else
+%             スコ
+%         \fi
+%         \ifnum\value{ddskBinary}>16
+%             \addtocounter{ddskBinary}{-16}
+%         \fi
+%         \if\value{ddskBinary}=\value{ddsktmp}
+%             ラブ注入
+%             \setcounter{flag}{1}
+%         \fi
+%     }
+% }
+
+\def\WhileTest{
+    \newcounter{int}
+    \setcounter{int}{0}
+    % \@whilenum{\value{int}<10}\do{
+    %     \addtocounter{int}{1}
+    % }
+}
+\makeatother
+
+\begin{document}
+%   \DDSK
+    \WhileTest
+\end{document}
