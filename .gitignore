@@ -1,8 +1,9 @@
 .vscode/
 ./**/.DS_Store
 ./C++/a.out
-*.log
-*.aux
-*.dvi
+./LaTeX/*.log
+./LaTeX/*.aux
+./LaTeX*.dvi
+./LaTeX/*.pdf
 
 .DS_Store
