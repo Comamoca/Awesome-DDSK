@@ -4,4 +4,4 @@ platex "$1"
 
 dvipdfmx "$(basename "$1" .tex).dvi"
 
-# rm *.aux *.dvi
+rm *.aux *.dvi
