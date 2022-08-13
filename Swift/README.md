@@ -2,4 +2,6 @@
 
 ## 実行方法
 
-`swift ddsk.swift`
+```sh
+swift run
+```
