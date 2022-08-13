@@ -1,19 +1,23 @@
-extern crate rand;
 use rand::Rng;
+use std::collections::VecDeque;
 
 fn main() {
     let mut rng = rand::thread_rng();
 
-    let ddsk: [&str; 2] = ["ドド", "スコ"];
-    let ddsk_temp: &str = "ドドスコスコスコドドスコスコスコドドスコスコスコ";
-    let mut text: String = "".to_string();
+    let ddsk_vec = vec!["ドド", "スコ"];
+    let match_ward = "ドドスコスコスコドドスコスコスコドドスコスコスコ";
+    let mut choice_ddsks:VecDeque<&str> = VecDeque::from([""; 12]);
+
     loop {
-        let add_text: &str = ddsk[rng.gen_range(0..2)];
-        print!("{}", add_text);
-        text = String::from(text) + add_text;
-        if text.contains(ddsk_temp) {
-            print!("ラブ注入♡");
-            break;
+        let random = rng.gen_range(0..2);
+        let choice_ddsk = ddsk_vec[random];
+        choice_ddsks.pop_back();
+        choice_ddsks.push_front(choice_ddsk);
+        let ddsk = choice_ddsks.as_slices().0.join("");
+        if ddsk == match_ward {
+            println!("{}", "ラブ注入♡");
+            return
         }
+        print!("{}", choice_ddsk);
     }
 }
