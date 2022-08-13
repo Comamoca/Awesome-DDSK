@@ -6,5 +6,9 @@ let package = Package(
     name: "DDSK",
     defaultLocalization: "ja",
     targets: [
+        .executableTarget(
+            name: "DDSK",
+            path: "Sources",
+            resources: [.process("Resources")]),
     ]
 )
