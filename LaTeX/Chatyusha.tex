@@ -1,0 +1,25 @@
+\documentclass[]{jsarticle}
+\usepackage{ifthen}
+\usepackage{lcg}
+
+\newcommand{\DDSK}{
+    \reinitrand[counter=r,first=0,last=1,seed=2148]
+
+    \newcounter{ddskTemp}
+    \newcounter{ddskBinary}
+
+    \setcounter{ddskTemp}{2184} % 100010001000
+    \setcounter{ddskBinary}{0}
+
+    \whiledo{\NOT\value{ddskBinary}=\value{ddskTemp}}{
+        \addtocounter{ddskBinary}{\value{ddskBinary}}
+        \ifthenelse{\value{r}=0}{\addtocounter{ddskBinary}{1}ドド}{スコ}
+        \ifthenelse{\value{ddskBinary}>4095}{\addtocounter{ddskBinary}{-4096}}{}
+        \rand
+    }
+    ラブ注入$\heartsuit$
+}
+
+\begin{document}
+    \DDSK
+\end{document}
