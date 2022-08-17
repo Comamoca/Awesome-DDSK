@@ -1,5 +1,11 @@
 <div align="center"><h1> 👏 Awesome DDSK 💕 </h1>
 
+![Last commit](https://img.shields.io/github/last-commit/Comamoca/Awesome-DDSK?style=flat-square)
+![Repository Stars](https://img.shields.io/github/stars/Comamoca/Awesome-DDSK?style=flat-square)
+![Issues](https://img.shields.io/github/issues/Comamoca/Awesome-DDSK?style=flat-square)
+![Open Issues](https://img.shields.io/github/issues-raw/Comamoca/Awesome-DDSK?style=flat-square)
+![Bug Issues](https://img.shields.io/github/issues/Comamoca/Awesome-DDSK/bug?style=flat-square)
+
 様々なドドスコプログラムを個人的に集めたリポジトリです。
 
 🎉たくさんのPRありがとうございます！🎉
