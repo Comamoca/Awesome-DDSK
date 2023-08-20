@@ -31,6 +31,7 @@
 - [D](./D) by @[PenguinCabinet](https://github.com/PenguinCabinet)
 - [Dart](./Dart) by @[Fus1onDev](https://github.com/Fus1onDev)
 - [Go](./Go) by @[gamma-410](https://github.com/gamma-410)
+- [Gleam](./Gleam) by @[Comamoca](https://github.com/Comamoca)
 - [Java](./Java) by @[jiro4989](https://github.com/jiro4989)
 - [Nadesiko3](./Nadesiko3) by @[arrow2nd](https://github.com/arrow2nd)
 - [Nim](./Nim) by @[Comamoca](https://github.com/Comamoca)
