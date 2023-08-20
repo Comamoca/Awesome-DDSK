@@ -1,18 +1,17 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # --------------------
 # * LICENSE : MIT
-# * Author : Fus1onDev
+# * Author : Fus1onDev, Hayao0819
 # --------------------
 
-DDSK[0]="ドド"
-DDSK[1]="スコ"
+DDSK=("ドド" "スコ")
 ddsk_temp="ドドスコスコスコドドスコスコスコドドスコスコスコ"
 text=""
 while [[ $text != *$ddsk_temp* ]]
 do
     random=$((RANDOM % 2))
-    echo ${DDSK[$random]}
+    echo "${DDSK[$random]}"
     text+=${DDSK[$random]}
 done
 echo "ラブ注入♡"
