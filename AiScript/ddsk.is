@@ -1,0 +1,17 @@
+let ddsk = [ "ドド" "スコ" ]
+let pattern =  "ドドスコスコスコドドスコスコスコドドスコスコスコ"
+var tmp = ""
+
+loop {
+  let word = ddsk[Math:rnd(0, 1)]
+  <: word
+
+  tmp = `{tmp}{word}`
+
+  if tmp.len > pattern.len {
+    tmp = word
+  } elif tmp == pattern {
+    <: "ラブ注入♡"
+    break
+  }
+}
