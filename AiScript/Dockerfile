@@ -2,8 +2,8 @@ FROM denoland/deno:latest
 
 WORKDIR /usr/src/ddsk
 
-ADD ./ddsk.is .
-ADD ./index.ts .
+COPY ./ddsk.is .
+COPY ./index.ts .
 
 RUN deno cache ./index.ts
 
