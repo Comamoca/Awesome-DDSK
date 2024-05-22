@@ -23,7 +23,8 @@
 
 ## 実装された言語の一覧
 
-- [Bash](./Bash) by @[Fus1onDev](https://github.com/Fus1onDev)
+- [AiScript](./AiScript) by @[ikasoba](https://github.com/ikasoba)
+- [Bash](./Bash) by @[Fus1onDev](https://github.com/Fus1onDev) and @[Hayao0819](https://github.com/Hayao0819)
 - [C#](./C#) by @[Chatyusha](https://github.com/Chatyusha)
 - [C++](./C++) by @[Chatyusha](https://github.com/Chatyusha)
 - [C](./C) by @[Chatyusha](https://github.com/Chatyusha)
@@ -33,6 +34,7 @@
 - [Go](./Go) by @[gamma-410](https://github.com/gamma-410)
 - [Gleam](./Gleam) by @[Comamoca](https://github.com/Comamoca)
 - [Java](./Java) by @[jiro4989](https://github.com/jiro4989)
+- [Kotlin](./Kotlin) by @[OHMORIYUSUKE](https://github.com/OHMORIYUSUKE)
 - [Nadesiko3](./Nadesiko3) by @[arrow2nd](https://github.com/arrow2nd)
 - [Nim](./Nim) by @[Comamoca](https://github.com/Comamoca)
 - [Python](./Python) by @[Chatyusha](https://github.com/Chatyusha)
