@@ -20,5 +20,5 @@ nextDdsk :: [String] -> String -> [String]
 nextDdsk (_:xs) str = xs ++ [str]
 
 isDdsk :: [String] -> [String] -> [String] -> ([String], [String])
-isDdsk currstr (x:xs) logs | currstr == ddskstr   = (currstr, logs ++ currstr)
-                           | otherwise            = isDdsk (nextDdsk currstr x) xs $ logs ++ currstr
+isDdsk currstr (x:xs) logs | currstr == ddskstr   = (currstr, logs)
+                           | otherwise            = isDdsk (nextDdsk currstr x) xs $ logs ++ [x]
