@@ -7,7 +7,9 @@ main = do
 
     let ns   = randomRs (0,length args-1) g
         strs = map (args !!) ns
-    mapM_ putStr (isDdsk initstr strs)
+
+    let (_, res) = isDdsk initstr strs []
+    mapM_ putStr res
     putStr "ラブ注入♡"
 
 
@@ -22,6 +24,6 @@ ddskstr = ["ドド", "スコ", "スコ", "スコ", "ドド", "スコ", "スコ",
 nextDdsk :: [String] -> String -> [String]
 nextDdsk (_:xs) str = xs ++ [str]
 
-isDdsk :: [String] -> [String] -> [String]
-isDdsk currstr (x:xs) | currstr == ddskstr   = currstr
-                      | otherwise            = isDdsk (nextDdsk currstr x) xs
+isDdsk :: [String] -> [String] -> [String] -> ([String], [String])
+isDdsk currstr (x:xs) logs | currstr == ddskstr   = (currstr, logs ++ currstr)
+                           | otherwise            = isDdsk (nextDdsk currstr x) xs (logs ++ currstr)
