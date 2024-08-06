@@ -15,6 +15,12 @@
 
 ここでのドドスコプログラムとは[Sheeplaさんのツイート](https://twitter.com/Sheeeeepla/status/1554028833942441984?s=20&t=7NM1CBCnhpZsp3-4JfXBwg)が発端で流行り始めた、楽しんごさんの「ラブ注入💕」を決められたルールに従い出力するプログラムの総称です。
 
+```txt
+【問題】配列{"ドド","スコ"}からランダムに要素を標準出力し続け、『その並びが「ドドスコスコスコ」を3回繰り返したもの』に一致したときに「ラブ注入♡」と標準出力して終了するプログラムを作成せよ(配点:5点)
+```
+
+(2022/08/01 17:58)
+
 ## ディレクトリ構造について
 
 ルート直下に各言語名のディレクトリを配置し、その中に`README.md`とプログラムを配置します。
@@ -41,7 +47,7 @@
 - [Ruby](./Ruby) by @[Omochice](https://github.com/Omochice)
 - [S](./S) by @[Chatyusha](https://github.com/Chatyusha)
 - [Sed](./Sed) by @[jiro4989](https://github.com/jiro4989)
-- [Swift](./Swift) by @[Fus1onDev](https://github.com/Fus1onDev) 
+- [Swift](./Swift) by @[Fus1onDev](https://github.com/Fus1onDev)
 - [TypeScript](./TypeScript) by @[mochi-sann](https://github.com/mochi-sann)
 - [Zig](./Zig) by @[YuseiUeno](https://github.com/YuseiUeno)
 - [Perl](./Perl) by @[YuseiUeno](https://github.com/YuseiUeno)
