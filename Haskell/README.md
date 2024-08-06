@@ -4,12 +4,12 @@
 
 ### Docker
 
-1.
+1. Create a Docker image
 ```
 docker build -t ddsk:haskell .
 ```
 
-2.
+2. Execute the program with `docker run`
 ```
 docker run --rm ddsk:haskell
 ```
