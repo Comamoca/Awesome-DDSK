@@ -8,7 +8,7 @@ main = do
         strs = map (args !!) ns
     let (_, res) = isDdsk initstr strs []
     mapM_ putStr res
-    putStr "ラブ注入♡"
+    putStrLn "ラブ注入♡"
 
 initstr :: [String]
 initstr = ["X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "X"]
