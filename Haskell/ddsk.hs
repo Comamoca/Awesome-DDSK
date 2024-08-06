@@ -1,19 +1,27 @@
 import System.Random
 import Control.Monad
-import System.Environment
 
 main = do
     g    <- newStdGen       -- get a new random generator
-    -- args <- getArgs         -- get the arguments
     let args = ["ドド", "スコ"]
-
-    -- do some error checking
-    when (null args) $ print "Usage: ./a.out [arg1 ... argn]"
-
-    -- generate an infinite list of random numbers
-    -- and now use them to generate an infinite list of strings 
-    -- print them out
 
     let ns   = randomRs (0,length args-1) g
         strs = map (args !!) ns
-    mapM_ putStrLn strs
+    mapM_ putStr (isDdsk initstr strs)
+    putStr "ラブ注入♡"
+
+
+
+initstr :: [String]
+initstr = ["X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "X"]
+
+
+ddskstr :: [String]
+ddskstr = ["ドド", "スコ", "スコ", "スコ", "ドド", "スコ", "スコ", "スコ", "ドド", "スコ", "スコ", "スコ"]
+
+nextDdsk :: [String] -> String -> [String]
+nextDdsk (_:xs) str = xs ++ [str]
+
+isDdsk :: [String] -> [String] -> [String]
+isDdsk currstr (x:xs) | currstr == ddskstr   = currstr
+                      | otherwise            = isDdsk (nextDdsk currstr x) xs
