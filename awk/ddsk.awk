@@ -2,7 +2,6 @@ BEGIN {
     ddsked = 0
     cnt = 0
     ddsk_goal= "ドドスコスコスコドドスコスコスコドドスコスコスコ"
-#    ddsk_goal= "ドドスコスコスコ" #shorter string for debugging
     
     ddsk[0] = "ドド"
     ddsk[1] = "スコ"
@@ -23,6 +22,6 @@ BEGIN {
     }
 }
 
-END {
+END { #yeah finally...
     print "ラブ注入♡"
 }
