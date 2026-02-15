@@ -14,8 +14,8 @@
 	(next-elem (if (equal? (random-integer 2) 0) "ドド" "スコ"))
 	(next-txtlst (append txtlst (cons next-elem '())))
 	)
-    (print next-txtlst)
-
+;;    (print next-txtlst)
+    (print next-elem)
     ;; ddsk check
     (when
 	(not (or (string-contains (string-join next-txtlst "") ddsk-goal)
