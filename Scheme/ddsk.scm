@@ -5,8 +5,6 @@
 (define ddsk-elem '("ドド" "スコ"))
 (define ddsk-goal "ドドスコスコスコドドスコスコスコドドスコスコスコ")
 
-;; shorter version for debugging
-;;(define ddsk-goal "ドドスコスコスコ")
 
 (define (dd-loop txtlst)
   (let* (
