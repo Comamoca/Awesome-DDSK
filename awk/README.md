@@ -8,4 +8,8 @@
 
 ## Docker
 
-(Help Needed) Dockerに詳しくないので誰か作って
+```sh
+docker build . -t ddsk:awk
+docker run --rm ddsk:awk
+```
+
