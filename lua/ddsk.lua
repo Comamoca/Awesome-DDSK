@@ -7,6 +7,7 @@ str_pool =''
 
 
 while ddsked == false do
+   math.randomseed(os.time() + math.floor(os.clock() * 1e6))
    temp=math.random(2) -- 'ドド' or 'スコ'
    print(ddsk[temp])
    str_pool = str_pool .. ddsk[temp]
