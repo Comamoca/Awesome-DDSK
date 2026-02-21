@@ -30,6 +30,7 @@
 ## 実装された言語の一覧
 
 - [AiScript](./AiScript) by @[ikasoba](https://github.com/ikasoba)
+- [awk](./awk) by @[Mamonbo](https://github.com/Mamonbo)
 - [Bash](./Bash) by @[Fus1onDev](https://github.com/Fus1onDev) and @[Hayao0819](https://github.com/Hayao0819)
 - [C#](./C#) by @[Chatyusha](https://github.com/Chatyusha)
 - [C++](./C++) by @[Chatyusha](https://github.com/Chatyusha)
