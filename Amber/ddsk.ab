@@ -1,0 +1,49 @@
+// This script is tested on 0.3.4-alpha
+
+import { len } from "std"
+
+let words = ["ドド", "スコ"]
+let goal = "0 1 1 1 0 1 1 1 0 1 1 1"
+let printed = [Text]
+
+fun array_join_str(arr:[Text]):Text{
+    return unsafe $echo \$\{{nameof arr}[*]}$
+}
+
+
+fun array_last_n_str(arr:[Text], n:Num):Text{
+    let times = n
+    let ret = [Text]
+    loop{
+        if times == 0{
+            break
+        }
+        let index = len(arr) - times
+        if len(arr) < index {
+            break
+        }
+        if index >= 0 {
+            ret += [arr[index]]
+        }
+        times -= 1
+    }
+    return array_join_str(ret)
+}
+
+fun print(str: Text){
+    unsafe $printf "%s" {str}$
+}
+
+main{
+    loop{
+        let random = $echo \$RANDOM$? as Num % 2
+        print(words[random])
+        printed += [random as Text]
+        let last_12 = array_last_n_str(printed, 12)
+        //echo last_12
+        if last_12 == goal {
+            echo "ラブ注入♡"
+            break
+        }
+    }
+}
