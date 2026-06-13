@@ -1,0 +1,50 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: ["config:recommended"],
+
+  // Zigは公式のDockerImageがないため、ハードコードしたバージョン番号をターゲットにしてアップデートする
+  customManagers: [
+    {
+      customType: "regex",
+      description: "Update Zig compiler version in Dockerfile ARG",
+      fileMatch: ["(^|/)Zig/Dockerfile$"],
+      matchStrings: ['ARG ZIG_VERSION=(?<currentValue>\\S+)'],
+      depNameTemplate: "ziglang/zig",
+      datasourceTemplate: "github-tags",
+      versioningTemplate: "semver",
+    },
+  ],
+
+  packageRules: [
+    {
+      description: "Zig compiler version",
+      matchManagers: ["custom.regex"],
+      matchFileNames: ["Zig/Dockerfile"],
+      groupName: "Zig",
+      labels: ["lang:zig"],
+    },
+    {
+      description: "Rust dependencies (Cargo.toml)",
+      matchManagers: ["cargo"],
+      matchFileNames: ["rust/**"],
+      groupName: "Rust dependencies",
+      labels: ["lang:rust"],
+    },
+    {
+      description: "Gleam dependencies (gleam.toml)",
+      matchManagers: ["gleam"],
+      matchFileNames: ["Gleam/**"],
+      groupName: "Gleam dependencies",
+      labels: ["lang:gleam"],
+    },
+    {
+      description: "Docker image tags (FROM lines)",
+      matchManagers: ["dockerfile"],
+      groupName: "Docker images",
+      labels: ["docker"],
+    },
+  ],
+
+  labels: ["dependencies"],
+  minimumReleaseAge: "3 days",
+}
